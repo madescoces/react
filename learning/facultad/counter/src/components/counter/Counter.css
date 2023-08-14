@@ -1,0 +1,25 @@
+.counter{
+    border: 1px auto red;
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttonbar{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.MuiCardContent-root{
+    margin: 0.2rem 0;
+}
+
+.MuiPaper-root {
+    background-color: rgb(203, 219, 240) !important;
+    border: 1px solid gray;
+    width: 400px;
+    border-radius: 15px !important;
+    margin: 0.3em;
+  }

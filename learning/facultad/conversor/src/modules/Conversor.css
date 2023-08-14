@@ -1,0 +1,42 @@
+/*.conversor {
+  padding: 1em 1em;
+  background: hsl(216, 21%, 91%);
+  width: 70%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.input{
+  display: inline;
+}
+
+.kilometers {
+  border: 1px auto red;
+  display: block;
+}*/
+
+.conversor {
+  background: hsl(216, 21%, 91%);
+  width: 70%;
+  border-radius: 10px;
+  padding: 1em 1em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.kilometers {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
